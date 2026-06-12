@@ -86,14 +86,9 @@ The website is optimized for:
 
 Computer Science Student
 
-GitHub:
-https://github.com/Shantishree28
-
-LinkedIn:
-https://www.linkedin.com/in/shantishree/
-
-Email:
-shantishree83@gmail.com
+- GitHub: https://github.com/Shantishree28
+- LinkedIn: https://www.linkedin.com/in/shantishree/
+- Email: shantishree83@gmail.com
 
 ## Live Demo
 
@@ -101,14 +96,14 @@ GitHub Repository:
 https://github.com/Shantishree28/portfolio-accessibility
 
 GitHub Pages:
-(Add your GitHub Pages URL here after deployment)
+https://shantishree28.github.io/portfolio-accessibility/
 
 ## Internship Task
 
 Developed as part of the RD Technology Internship Program.
 
-Task 1:
+### Task 1
 Semantic HTML5 Structure & Accessibility
 
-Task 2:
+### Task 2
 Advanced CSS3 & Responsive Architecture
