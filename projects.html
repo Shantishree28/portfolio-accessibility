@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Projects | Shanti Shree</title>
-    <meta name="description" content="Projects by Shanti Shree.">
+
+    <meta name="description" content="Projects developed by Shanti Shree showcasing web development, software engineering and problem-solving skills.">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,55 +15,197 @@
 <a class="skip-link" href="#main-content">Skip to Main Content</a>
 
 <header>
-    <h1>Projects</h1>
 
-    <nav aria-label="Primary Navigation">
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html" aria-current="page">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+
+        <h1>Projects</h1>
+
+        <nav aria-label="Primary Navigation">
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="projects.html" aria-current="page">Projects</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+                <li>
+                    <button
+                        id="theme-toggle"
+                        aria-label="Toggle dark mode">
+                        🌙
+                    </button>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
 </header>
 
 <main id="main-content">
 
-<section aria-labelledby="project-heading">
+    <div class="container">
 
-<h2 id="project-heading">My Projects</h2>
+        <section aria-labelledby="project-heading">
 
-<article class="card">
-    <h3>Personal Finance & Budgeting System</h3>
-    <p>
-        Developed a budgeting and expense tracking application using modern
-        web technologies and database integration.
-    </p>
-</article>
+            <h2 id="project-heading">
+                My Projects
+            </h2>
 
-<article class="card">
-    <h3>Accessible Portfolio Website</h3>
-    <p>
-        Portfolio website following semantic HTML5 standards and WCAG
-        accessibility guidelines.
-    </p>
-</article>
+            <p>
+                A collection of academic and personal projects that demonstrate
+                my skills in web development, software engineering and problem solving.
+            </p>
 
-<article class="card">
-    <h3>Student Management System</h3>
-    <p>
-        Academic project designed to manage student records and streamline
-        administrative tasks.
-    </p>
-</article>
+            <br>
 
-</section>
+            <div class="projects-grid">
+
+                <article class="card">
+
+                    <h3>
+                        Personal Finance & Budgeting System
+                    </h3>
+
+                    <p>
+                        Full-stack application designed to help users
+                        track expenses, manage budgets and analyze
+                        financial habits through interactive dashboards.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        HTML, CSS, JavaScript, Node.js, MySQL
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>
+                        Accessible Portfolio Website
+                    </h3>
+
+                    <p>
+                        Multi-page portfolio website built using
+                        semantic HTML5, WCAG accessibility standards,
+                        responsive design principles and modern CSS3.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        HTML5, CSS3, GitHub Pages
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>
+                        Student Management System
+                    </h3>
+
+                    <p>
+                        Academic project developed to manage student
+                        records, academic information and administrative
+                        operations efficiently.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        Java, MySQL
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>
+                        LeetCode Progress Tracker
+                    </h3>
+
+                    <p>
+                        A concept project for organizing coding practice,
+                        tracking solved problems and monitoring learning
+                        progress in Data Structures and Algorithms.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        HTML, CSS, JavaScript
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>
+                        Responsive Landing Page
+                    </h3>
+
+                    <p>
+                        Modern responsive website layout created using
+                        CSS Grid, Flexbox and mobile-first development
+                        techniques.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        HTML5, CSS3
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>
+                        Future Full-Stack Application
+                    </h3>
+
+                    <p>
+                        Planned project focused on integrating frontend,
+                        backend and database technologies into a complete
+                        production-ready application.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong>
+                        Angular, Node.js, MySQL
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </div>
 
 </main>
 
 <footer>
-    <p>&copy; 2026 Shanti Shree</p>
+
+    <p>
+        &copy; 2026 Shanti Shree. All Rights Reserved.
+    </p>
+
 </footer>
+
+<script src="js/theme.js"></script>
 
 </body>
 </html>

@@ -3,77 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Contact | Shanti Shree</title>
-    <meta name="description" content="Contact Shanti Shree.">
+
+    <meta name="description" content="Contact Shanti Shree for opportunities, collaborations and professional networking.">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<a class="skip-link" href="#main-content">Skip to Main Content</a>
+<a class="skip-link" href="#main-content">
+    Skip to Main Content
+</a>
 
 <header>
-    <h1>Contact Me</h1>
 
-    <nav aria-label="Primary Navigation">
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html" aria-current="page">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+
+        <h1>Contact Me</h1>
+
+        <nav aria-label="Primary Navigation">
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+
+                <li>
+                    <a href="contact.html" aria-current="page">Contact</a>
+                </li>
+
+                <li>
+                    <button
+                        id="theme-toggle"
+                        aria-label="Toggle dark mode">
+                        🌙
+                    </button>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
 </header>
 
 <main id="main-content">
 
-<section aria-labelledby="contact-heading">
+    <div class="container">
 
-<h2 id="contact-heading">Get In Touch</h2>
+        <section aria-labelledby="contact-heading">
 
-<p>Email: shantishree83@gmail.com</p>
+            <h2 id="contact-heading">
+                Get In Touch
+            </h2>
 
-<p>
-LinkedIn:
-<a href="https://www.linkedin.com/in/shantishree/">
-Profile
-</a>
-</p>
+            <p>
+                I am always open to discussing new opportunities,
+                internships, collaborations and innovative projects.
+            </p>
 
-<p>
-GitHub:
-<a href="https://github.com/Shantishree28">
-Shantishree28
-</a>
-</p>
+            <br>
 
-<form aria-labelledby="contact-heading">
+            <div class="contact-links">
 
-<fieldset>
+                <a href="mailto:shantishree83@gmail.com">
+                    📧 Email
+                </a>
 
-<legend>Contact Information</legend>
+                <a
+                    href="https://www.linkedin.com/in/shantishree/"
+                    target="_blank"
+                    rel="noopener noreferrer">
 
-<label for="name">Full Name</label>
-<input type="text" id="name" name="name" required>
+                    LinkedIn
 
-<label for="email">Email Address</label>
-<input type="email" id="email" name="email" required>
+                </a>
 
-<label for="message">Message</label>
-<textarea id="message" name="message" rows="5" required></textarea>
+                <a
+                    href="https://github.com/Shantishree28"
+                    target="_blank"
+                    rel="noopener noreferrer">
 
-<button type="submit">Send Message</button>
+                    GitHub
 
-</fieldset>
+                </a>
 
-</form>
+            </div>
 
-</section>
+        </section>
+
+        <section aria-labelledby="form-heading">
+
+            <h2 id="form-heading">
+                Send a Message
+            </h2>
+
+            <form aria-labelledby="form-heading">
+
+                <fieldset>
+
+                    <legend>
+                        Contact Information
+                    </legend>
+
+                    <label for="name">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required>
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required>
+
+                    <label for="subject">
+                        Subject
+                    </label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        required>
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        required></textarea>
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </div>
 
 </main>
 
 <footer>
-    <p>&copy; 2026 Shanti Shree</p>
+
+    <p>
+        &copy; 2026 Shanti Shree. All Rights Reserved.
+    </p>
+
 </footer>
+
+<script src="js/theme.js"></script>
 
 </body>
 </html>

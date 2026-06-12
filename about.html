@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>About | Shanti Shree</title>
-    <meta name="description" content="Learn more about Shanti Shree.">
+
+    <meta name="description" content="Learn more about Shanti Shree, Computer Science student and aspiring Full-Stack Developer.">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,59 +15,169 @@
 <a class="skip-link" href="#main-content">Skip to Main Content</a>
 
 <header>
-    <h1>About Me</h1>
 
-    <nav aria-label="Primary Navigation">
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" aria-current="page">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+
+        <h1>About Me</h1>
+
+        <nav aria-label="Primary Navigation">
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html" aria-current="page">About</a>
+                </li>
+
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+                <li>
+                    <button
+                        id="theme-toggle"
+                        aria-label="Toggle dark mode">
+                        🌙
+                    </button>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
 </header>
 
 <main id="main-content">
 
-<section>
-    <h2>Biography</h2>
+    <div class="container">
 
-    <article>
-        <p>
-            I am Shanti Shree, a Computer Science student with a strong
-            interest in software development, web technologies and problem
-            solving.
-        </p>
-    </article>
-</section>
+        <section class="hero" aria-labelledby="about-heading">
 
-<section>
-    <h2>Education</h2>
+            <div class="hero-content">
 
-    <article>
-        <p>
-            Pursuing a degree in Computer Science with a focus on software
-            engineering, databases and web application development.
-        </p>
-    </article>
-</section>
+                <h2 id="about-heading">
+                    Who Am I?
+                </h2>
 
-<section>
-    <h2>Career Goals</h2>
+                <p>
+                    I am Shanti Shree, a Computer Science student
+                    passionate about software development, web
+                    technologies, problem solving and creating
+                    user-friendly digital experiences.
+                </p>
 
-    <article>
-        <p>
-            My goal is to become a skilled Full-Stack Developer capable of
-            building scalable, secure and accessible web applications.
-        </p>
-    </article>
-</section>
+            </div>
+
+            <div class="hero-card">
+
+                <h3>
+                    Career Objective
+                </h3>
+
+                <p>
+                    To become a skilled Full-Stack Developer capable
+                    of building scalable, secure and accessible
+                    applications that create meaningful impact.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section aria-labelledby="education-heading">
+
+            <h2 id="education-heading">
+                Education
+            </h2>
+
+            <article class="card">
+
+                <p>
+                    Pursuing a degree in Computer Science with
+                    a strong foundation in programming,
+                    database systems, software engineering
+                    and modern web technologies.
+                </p>
+
+            </article>
+
+        </section>
+
+        <section aria-labelledby="strengths-heading">
+
+            <h2 id="strengths-heading">
+                Core Strengths
+            </h2>
+
+            <div class="projects-grid">
+
+                <article class="card">
+
+                    <h3>
+                        Problem Solving
+                    </h3>
+
+                    <p>
+                        Strong analytical thinking with regular
+                        practice of Data Structures and Algorithms.
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>
+                        Web Development
+                    </h3>
+
+                    <p>
+                        Experience building responsive and
+                        accessible websites using modern
+                        development practices.
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>
+                        Continuous Learning
+                    </h3>
+
+                    <p>
+                        Dedicated to improving technical
+                        skills through projects, internships
+                        and self-learning.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </div>
 
 </main>
 
 <footer>
-    <p>&copy; 2026 Shanti Shree</p>
+
+    <p>
+        &copy; 2026 Shanti Shree. All Rights Reserved.
+    </p>
+
 </footer>
+
+<script src="js/theme.js"></script>
 
 </body>
 </html>

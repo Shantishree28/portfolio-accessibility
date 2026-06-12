@@ -7,7 +7,7 @@
     <title>Shanti Shree | Portfolio</title>
 
     <meta name="description" content="Portfolio of Shanti Shree, Computer Science Student and aspiring Full-Stack Developer.">
-    <meta name="keywords" content="Portfolio, Computer Science, Web Development, HTML5, Accessibility">
+    <meta name="keywords" content="Portfolio, Computer Science, Web Development, HTML5, CSS3, Accessibility">
     <meta name="author" content="Shanti Shree">
     <meta name="robots" content="index, follow">
 
@@ -23,74 +23,180 @@
 
 <header>
     <div class="container">
+
         <h1>Shanti Shree</h1>
-        <p>Computer Science Student | Aspiring Full-Stack Developer</p>
+
+        <p>
+            Computer Science Student | Aspiring Full-Stack Developer
+        </p>
 
         <nav aria-label="Primary Navigation">
+
             <ul class="nav-links">
-                <li><a href="index.html" aria-current="page">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+
+                <li>
+                    <a href="index.html" aria-current="page">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+                <li>
+                    <button
+                        id="theme-toggle"
+                        aria-label="Toggle dark mode">
+                        🌙
+                    </button>
+                </li>
+
             </ul>
+
         </nav>
+
     </div>
 </header>
 
 <main id="main-content">
 
-<section aria-labelledby="hero-heading" class="hero">
     <div class="container">
-        <h2 id="hero-heading">Welcome to My Portfolio</h2>
-        <p>
-            I am a Computer Science student passionate about web development,
-            problem solving and building accessible digital experiences.
-        </p>
+
+        <section
+            class="hero"
+            aria-labelledby="hero-heading">
+
+            <div class="hero-content">
+
+                <h2 id="hero-heading">
+                    Welcome to My Portfolio
+                </h2>
+
+                <p>
+                    I am a Computer Science student passionate about
+                    Web Development, Software Engineering,
+                    Problem Solving and building accessible,
+                    responsive digital experiences.
+                </p>
+
+            </div>
+
+            <div class="hero-card">
+
+                <h3>Future Full-Stack Developer</h3>
+
+                <p>
+                    Dedicated to creating scalable,
+                    user-friendly and accessible web
+                    applications using modern technologies.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section aria-labelledby="skills-heading">
+
+            <h2 id="skills-heading">
+                Technical Skills
+            </h2>
+
+            <ul class="skills-list">
+
+                <li>HTML5</li>
+
+                <li>CSS3</li>
+
+                <li>JavaScript</li>
+
+                <li>Java</li>
+
+                <li>MySQL</li>
+
+                <li>Git & GitHub</li>
+
+                <li>Responsive Design</li>
+
+                <li>Accessibility</li>
+
+            </ul>
+
+        </section>
+
+        <section aria-labelledby="featured-projects">
+
+            <h2 id="featured-projects">
+                Featured Projects
+            </h2>
+
+            <div class="projects-grid">
+
+                <article class="card">
+
+                    <h3>
+                        Personal Finance & Budgeting System
+                    </h3>
+
+                    <p>
+                        Full-stack application for expense tracking,
+                        budgeting and financial management using
+                        modern web technologies.
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>
+                        Accessible Portfolio Website
+                    </h3>
+
+                    <p>
+                        Portfolio website developed using semantic
+                        HTML5, WCAG accessibility guidelines and
+                        responsive design principles.
+                    </p>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>
+                        Student Management System
+                    </h3>
+
+                    <p>
+                        Academic project designed to manage student
+                        information and streamline administrative
+                        operations.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
     </div>
-</section>
-
-<section aria-labelledby="skills-heading">
-    <div class="container">
-        <h2 id="skills-heading">Skills</h2>
-
-        <ul class="skills-list">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>Java</li>
-            <li>MySQL</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </div>
-</section>
-
-<section aria-labelledby="featured-projects">
-    <div class="container">
-        <h2 id="featured-projects">Featured Projects</h2>
-
-        <article class="card">
-            <h3>Personal Finance & Budgeting System</h3>
-            <p>
-                Full-stack application for expense tracking, budgeting and
-                financial management.
-            </p>
-        </article>
-
-        <article class="card">
-            <h3>Portfolio Website</h3>
-            <p>
-                Responsive portfolio developed using semantic HTML5 and
-                accessibility best practices.
-            </p>
-        </article>
-    </div>
-</section>
 
 </main>
 
 <footer>
-    <p>&copy; 2026 Shanti Shree. All Rights Reserved.</p>
+
+    <p>
+        &copy; 2026 Shanti Shree. All Rights Reserved.
+    </p>
+
 </footer>
+
+<script src="js/theme.js"></script>
 
 </body>
 </html>
